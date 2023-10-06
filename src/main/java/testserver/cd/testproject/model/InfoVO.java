@@ -83,8 +83,6 @@ public class InfoVO {
             this.job = job;
         }
     }
-
-
 }
 
 
