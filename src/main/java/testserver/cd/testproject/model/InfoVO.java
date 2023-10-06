@@ -14,7 +14,8 @@ public class InfoVO {
     }
     public void setId(String id) {
         if(id.length()<2)
-            throw new IllegalArgumentException("2글자 이상이어야 합니다.");
+            System.out.println("sdsd");
+            //throw new IllegalArgumentException("2글자 이상이어야 합니다.");
         this.id = id;
     }
     public String getName() {
